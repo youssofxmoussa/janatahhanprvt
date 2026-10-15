@@ -22,7 +22,8 @@ export function TabBar() {
             <Link
               key={to}
               to={to}
-              preload="intent"
+              preload="render"
+              resetScroll
               className="relative flex flex-1 flex-col items-center gap-0.5 rounded-2xl py-2"
             >
               {active && (
