@@ -460,13 +460,13 @@ function SubjectContent() {
                 <VideoPlayer
   key={videoAttempt}
 >
-  <MinimalVideoSkin>
+  <VideoSkin>
     <Video
       src={COURSE_VIDEO_URL}
       playsInline
       preload="metadata"
     />
-  </MinimalVideoSkin>
+  </VideoSkin>
 </VideoPlayer>
 
                 {videoError && (
