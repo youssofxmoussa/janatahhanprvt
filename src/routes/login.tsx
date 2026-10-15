@@ -10,8 +10,8 @@ import { createDemoSession, DEMO_EMAIL, DEMO_PASSWORD, hasDemoSession } from "@/
 export const Route = createFileRoute("/login")({
   head: () => ({
     ...appHead({
-      title: "Sign in · BioVision",
-      description: "Sign in to BioVision and continue your first-year science courses.",
+      title: "Sign in · Jana Prvt Course",
+      description: "Sign in to Jana Prvt Course and continue your first-year science courses.",
       path: "/login",
     }),
   }),
@@ -66,8 +66,8 @@ function SignIn() {
               className="absolute size-[clamp(9rem,30vw,12rem)] rounded-full bg-primary/15 blur-3xl"
             />
             <img
-              src="/brand/biovision-logo.png"
-              alt="BioVision logo"
+              src="/brand/jana-logo.png"
+              alt="Jana Prvt Course logo"
               width={3200}
               height={2369}
               className="relative h-[clamp(7.5rem,22vh,11rem)] w-full object-contain drop-shadow-[0_8px_24px_rgba(0,0,0,0.18)]"
@@ -75,7 +75,7 @@ function SignIn() {
           </div>
           <h1 className="mt-[clamp(0.5rem,2vh,1rem)] text-[clamp(1.75rem,5.5vw,2.125rem)] leading-tight font-bold tracking-tight">
             Welcome Back, <br />
-            BioVision Student
+            Jana Prvt Course
           </h1>
         </header>
 

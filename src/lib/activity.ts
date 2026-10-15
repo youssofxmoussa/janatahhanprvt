@@ -26,10 +26,10 @@ export interface ActivityState {
 export const GOAL_OPTIONS = [15, 30, 45, 60] as const;
 export const DEFAULT_GOAL_MINUTES = 30;
 /** Legacy key kept so an already-picked goal is not lost. */
-const LEGACY_GOAL_KEY = "biovision_daily_goal";
+const LEGACY_GOAL_KEY = "janaprvt_daily_goal";
 
-export const ACTIVITY_KEY = "biovision_activity";
-export const ACTIVITY_EVENT = "biovision:activity";
+export const ACTIVITY_KEY = "janaprvt_activity";
+export const ACTIVITY_EVENT = "janaprvt:activity";
 
 const emptyState: ActivityState = {
   subjects: {},

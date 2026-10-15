@@ -73,7 +73,7 @@ export function PublicPage({
               FAQ
             </Link>
           </nav>
-          <p className="mt-4">BioVision — study tools for medical and science students.</p>
+          <p className="mt-4">Jana Prvt Course — study tools for medical and science students.</p>
         </footer>
       </div>
     </div>

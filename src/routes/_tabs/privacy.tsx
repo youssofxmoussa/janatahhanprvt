@@ -6,12 +6,12 @@ import { SettingsHeader, Toggle } from "./notifications";
 export const Route = createFileRoute("/_tabs/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy · BioVision Learn" },
+      { title: "Privacy · Jana Prvt Course" },
       {
         name: "description",
-        content: "Control analytics, personalization, and locally stored study data in BioVision Learn.",
+        content: "Control analytics, personalization, and locally stored study data in Jana Prvt Course.",
       },
-      { property: "og:title", content: "Privacy · BioVision Learn" },
+      { property: "og:title", content: "Privacy · Jana Prvt Course" },
       { property: "og:description", content: "Your data, your rules." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/_tabs/privacy")({
   component: Privacy,
 });
 
-const STORAGE_KEY = "biovision_privacy_prefs";
+const STORAGE_KEY = "janaprvt_privacy_prefs";
 
 const options = [
   { id: "analytics", label: "Usage analytics", hint: "Share anonymous app usage", icon: Eye },
@@ -59,7 +59,7 @@ function Privacy() {
   };
 
   const clearLocalData = () => {
-    localStorage.removeItem("biovision_saved_videos");
+    localStorage.removeItem("janaprvt_saved_videos");
     setCleared(true);
     window.setTimeout(() => setCleared(false), 2200);
   };

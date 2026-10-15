@@ -8,7 +8,7 @@ export interface AppearanceSettings {
   boldText: boolean;
 }
 
-export const APPEARANCE_KEY = "biovision_appearance";
+export const APPEARANCE_KEY = "janaprvt_appearance";
 
 export const defaultAppearance: AppearanceSettings = {
   theme: "system",

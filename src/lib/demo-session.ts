@@ -1,7 +1,7 @@
-const SESSION_KEY = "biovision_demo_session";
+const SESSION_KEY = "janaprvt_demo_session";
 
-export const DEMO_EMAIL = "ossama@gmail.com";
-export const DEMO_PASSWORD = "ossama1?";
+export const DEMO_EMAIL = "jana@gmail.com";
+export const DEMO_PASSWORD = "jana1?";
 
 export function hasDemoSession() {
   if (typeof window === "undefined") return false;

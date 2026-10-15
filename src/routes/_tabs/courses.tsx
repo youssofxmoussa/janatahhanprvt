@@ -9,12 +9,12 @@ import { spring } from "@/components/ios/press";
 export const Route = createFileRoute("/_tabs/courses")({
   head: () => ({
     meta: [
-      { title: "Courses · BioVision learn" },
+      { title: "Courses · Jana Prvt Course" },
       {
         name: "description",
-        content: "Browse your BioVision courses and pick up exactly where you left off.",
+        content: "Browse your Jana Prvt Course courses and pick up exactly where you left off.",
       },
-      { property: "og:title", content: "Courses · BioVision" },
+      { property: "og:title", content: "Courses · Jana Prvt Course" },
       { property: "og:description", content: "Your library of focused, beautifully paced courses." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
