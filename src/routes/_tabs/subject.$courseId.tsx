@@ -18,8 +18,8 @@ import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import lectureVideo from "@/assets/video/lecture.mp4.asset.json";
 import lecturePdf from "@/assets/docs/lecture-notes.pdf.asset.json";
-import { VideoPlayer, MinimalVideoSkin, Video } from "@videojs/react/video";
-import "@videojs/react/video/minimal-skin.css";
+import { VideoPlayer, VideoSkin, Video } from "@videojs/react/video";
+import "@videojs/react/video/skin.css";
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
