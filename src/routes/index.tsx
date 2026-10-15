@@ -5,9 +5,9 @@ import { hasDemoSession } from "@/lib/demo-session";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "BioVision" },
+      { title: "Jana Prvt Course" },
       { name: "robots", content: "noindex" },
-      { name: "description", content: "BioVision study app." },
+      { name: "description", content: "Jana Prvt Course study app." },
     ],
   }),
   component: HomeRedirect,

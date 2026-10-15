@@ -19,12 +19,12 @@ import {
 export const Route = createFileRoute("/_tabs/learning")({
   head: () => ({
     meta: [
-      { title: "Learning · BioVision learn" },
+      { title: "Learning · Jana Prvt Course" },
       {
         name: "description",
         content: "Track your streak, weekly minutes, and the lessons waiting for you today.",
       },
-      { property: "og:title", content: "Learning · BioVision" },
+      { property: "og:title", content: "Learning · Jana Prvt Course" },
       { property: "og:description", content: "Your streak, progress, and up-next lessons." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

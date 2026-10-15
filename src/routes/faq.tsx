@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PublicPage, breadcrumbSchema } from "@/components/seo/PublicPage";
 
-const title = "BioVision FAQ — streaks, progress and offline study";
+const title = "Jana Prvt Course FAQ — streaks, progress and offline study";
 const description =
-  "Answers about how BioVision counts study time, how the day streak and weekly minutes are calculated, and how progress syncs across devices.";
+  "Answers about how Jana Prvt Course counts study time, how the day streak and weekly minutes are calculated, and how progress syncs across devices.";
 
 const faqs = [
   {
-    q: "How does BioVision calculate a day streak?",
+    q: "How does Jana Prvt Course calculate a day streak?",
     a: "A day is earned after five minutes of focused learning time — the lesson page must be open and visible. Watching a video, reading the PDF notes or answering quiz questions all count. Simply opening the app does not.",
   },
   {
@@ -23,8 +23,8 @@ const faqs = [
     a: "The streak resets to zero and starts again on your next earned day. Yesterday still counts as the anchor if you have not hit today's goal yet.",
   },
   {
-    q: "Does BioVision work on mobile?",
-    a: "Yes. BioVision is built mobile-first with a tab bar, full-screen video and a paged PDF reader tuned for phone screens.",
+    q: "Does Jana Prvt Course work on mobile?",
+    a: "Yes. Jana Prvt Course is built mobile-first with a tab bar, full-screen video and a paged PDF reader tuned for phone screens.",
   },
 ];
 
@@ -71,7 +71,7 @@ function FaqPage() {
   return (
     <PublicPage
       title="Frequently asked questions"
-      lede="Short, direct answers about streaks, study time and progress in BioVision."
+      lede="Short, direct answers about streaks, study time and progress in Jana Prvt Course."
       crumbs={[{ label: "Home", to: "/" }, { label: "FAQ" }]}
     >
       {faqs.map((f) => (

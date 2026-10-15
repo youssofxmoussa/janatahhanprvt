@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PublicPage, breadcrumbSchema } from "@/components/seo/PublicPage";
 
-const title = "About BioVision — study platform for medical students";
+const title = "About Jana Prvt Course — study platform for medical students";
 const description =
-  "BioVision is a focused study app for first-year medical and science students: lecture videos, PDF notes and quizzes per subject, with a streak that only counts real learning time.";
+  "Jana Prvt Course is a focused study app for first-year medical and science students: lecture videos, PDF notes and quizzes per subject, with a streak that only counts real learning time.";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/about")({
           name: title,
           description,
           url: "/about",
-          publisher: { "@type": "Organization", name: "BioVision" },
+          publisher: { "@type": "Organization", name: "Jana Prvt Course" },
         }),
       },
       {
@@ -46,14 +46,14 @@ export const Route = createFileRoute("/about")({
 function AboutPage() {
   return (
     <PublicPage
-      title="About BioVision"
+      title="About Jana Prvt Course"
       lede="A calm, distraction-free place to study biology, chemistry, physics and maths — built around what students actually do the night before an exam."
       crumbs={[{ label: "Home", to: "/" }, { label: "About" }]}
     >
       <section>
-        <h2 className="text-xl font-bold tracking-tight">What BioVision is</h2>
+        <h2 className="text-xl font-bold tracking-tight">What Jana Prvt Course is</h2>
         <p className="mt-3 leading-relaxed text-muted-foreground">
-          BioVision organises a full first-year science curriculum into subjects. Each subject
+          Jana Prvt Course organises a full first-year science curriculum into subjects. Each subject
           bundles the lecture video, the PDF notes and a multiple-choice knowledge check, so you
           never have to hunt across drives, chats and folders to revise one topic.
         </p>

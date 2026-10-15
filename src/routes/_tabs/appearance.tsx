@@ -16,13 +16,13 @@ import {
 export const Route = createFileRoute("/_tabs/appearance")({
   head: () => ({
     meta: [
-      { title: "Appearance · BioVision Learn" },
+      { title: "Appearance · Jana Prvt Course" },
       {
         name: "description",
-        content: "Switch between light and dark, tune text size, and reduce motion in BioVision Learn.",
+        content: "Switch between light and dark, tune text size, and reduce motion in Jana Prvt Course.",
       },
-      { property: "og:title", content: "Appearance · BioVision Learn" },
-      { property: "og:description", content: "Make BioVision Learn look and feel the way you like." },
+      { property: "og:title", content: "Appearance · Jana Prvt Course" },
+      { property: "og:description", content: "Make Jana Prvt Course look and feel the way you like." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "robots", content: "noindex, nofollow" },
@@ -60,7 +60,7 @@ function Appearance() {
 
   return (
     <div className="pb-32">
-      <SettingsHeader title="Appearance" subtitle="Tune how BioVision Learn looks on this device." />
+      <SettingsHeader title="Appearance" subtitle="Tune how Jana Prvt Course looks on this device." />
 
       <section className="mt-6">
         <h2 className="px-2 text-[0.75rem] font-bold uppercase tracking-widest text-muted-foreground">

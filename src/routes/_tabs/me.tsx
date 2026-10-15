@@ -20,17 +20,17 @@ import { useActivity } from "@/lib/activity";
 
 import { courses } from "@/lib/courses";
 import { clearDemoSession } from "@/lib/demo-session";
-import avatarOssama from "@/assets/avatar-ossama.png";
+import avatarJana from "@/assets/avatar-jana.png";
 
 export const Route = createFileRoute("/_tabs/me")({
   head: () => ({
     meta: [
-      { title: "Profile · BioVision" },
+      { title: "Profile · Jana Prvt Course" },
       {
         name: "description",
-        content: "Manage your BioVision profile, appearance, notifications, and privacy settings.",
+        content: "Manage your Jana Prvt Course profile, appearance, notifications, and privacy settings.",
       },
-      { property: "og:title", content: "Profile · BioVision" },
+      { property: "og:title", content: "Profile · Jana Prvt Course" },
       { property: "og:description", content: "Your account and app preferences." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -39,7 +39,7 @@ export const Route = createFileRoute("/_tabs/me")({
   component: Me,
 });
 
-const SAVED_KEY = "biovision_saved_videos";
+const SAVED_KEY = "janaprvt_saved_videos";
 
 function Me() {
   const navigate = useNavigate();
@@ -111,8 +111,8 @@ function Me() {
             />
             <div className="relative grid size-20 items-end justify-items-center overflow-hidden rounded-full bg-primary-foreground/15 ring-2 ring-primary-foreground/30">
               <img
-                src={avatarOssama}
-                alt="Ossama's 3D avatar"
+                src={avatarJana}
+                alt="Jana's 3D avatar"
                 width={584}
                 height={844}
                 loading="lazy"
@@ -123,10 +123,10 @@ function Me() {
 
           <div className="min-w-0 flex-1">
             <p className="truncate text-[1.375rem] font-black leading-tight tracking-tight text-primary-foreground">
-              Ossama
+              Jana
             </p>
             <p className="mt-0.5 truncate text-[0.875rem] text-primary-foreground/70">
-              First-year science · BioVision
+              First-year science · Jana Prvt Course
             </p>
             <span className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-primary-foreground/15 px-2.5 py-1 text-[0.6875rem] font-bold uppercase tracking-widest text-primary-foreground">
               <Flame className="size-3.5" />

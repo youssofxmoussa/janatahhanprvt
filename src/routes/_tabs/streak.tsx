@@ -11,14 +11,14 @@ import arrowImg from "@/assets/scribble-arrow.png";
 export const Route = createFileRoute("/_tabs/streak")({
   head: () => ({
     meta: [
-      { title: "About Streak · BioVision" },
+      { title: "About Streak · Jana Prvt Course" },
       {
         name: "description",
         content:
-          "Learn how the BioVision day streak is calculated, when the flame icons update, and how weekly minutes add up.",
+          "Learn how the Jana Prvt Course day streak is calculated, when the flame icons update, and how weekly minutes add up.",
       },
-      { property: "og:title", content: "About Streak · BioVision" },
-      { property: "og:description", content: "How BioVision streaks and weekly minutes work." },
+      { property: "og:title", content: "About Streak · Jana Prvt Course" },
+      { property: "og:description", content: "How Jana Prvt Course streaks and weekly minutes work." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],

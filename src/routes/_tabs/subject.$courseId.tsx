@@ -31,7 +31,7 @@ export const Route = createFileRoute("/_tabs/subject/$courseId")({
       (c) => c.id.toLowerCase() === params.courseId.toLowerCase(),
     );
 
-    const title = `${course?.title || "Subject"} · BioVision Learn`;
+    const title = `${course?.title || "Subject"} · Jana Prvt Course`;
     const description = `Study ${
       course?.title || "this subject"
     } with videos, PDFs, and Q&A.`;
@@ -183,7 +183,7 @@ function SubjectContent() {
 
   useEffect(() => {
     const savedVideos = JSON.parse(
-      localStorage.getItem("biovision_saved_videos") || "[]",
+      localStorage.getItem("janaprvt_saved_videos") || "[]",
     );
 
     setIsSaved(savedVideos.includes(courseId.toLowerCase()));
@@ -303,7 +303,7 @@ function SubjectContent() {
 
   const toggleSave = () => {
     const savedVideos = JSON.parse(
-      localStorage.getItem("biovision_saved_videos") || "[]",
+      localStorage.getItem("janaprvt_saved_videos") || "[]",
     );
 
     let newSaved;
@@ -317,7 +317,7 @@ function SubjectContent() {
     }
 
     localStorage.setItem(
-      "biovision_saved_videos",
+      "janaprvt_saved_videos",
       JSON.stringify(newSaved),
     );
 

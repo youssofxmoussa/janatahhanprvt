@@ -1,5 +1,5 @@
 /* =========================================================
-   BioVision — centralized SEO + GEO (generative engine
+   Jana Prvt Course — centralized SEO + GEO (generative engine
    optimization) layer.
 
    Everything that search engines, social crawlers and AI
@@ -14,23 +14,23 @@ import { courses } from "./courses";
    --------------------------------------------------------- */
 
 export const SITE = {
-  name: "BioVision",
-  legalName: "BioVision Learn",
-  shortName: "BioVision",
-  url: "https://biovisionxtest.vercel.app",
+  name: "Jana Prvt Course",
+  legalName: "Jana Prvt Course",
+  shortName: "Jana Prvt Course",
+  url: "https://janaprvtxtest.vercel.app",
   locale: "en_US",
   languages: ["en", "ar"],
   tagline: "Study smarter — courses, notes and quizzes for science students",
   description:
-    "BioVision is a mobile-first study platform for first-year medical, biology, chemistry, physics and maths students. Every subject bundles the lecture video, the PDF notes and a quiz, with a streak that only counts real learning time.",
+    "Jana Prvt Course is a mobile-first study platform for first-year medical, biology, chemistry, physics and maths students. Every subject bundles the lecture video, the PDF notes and a quiz, with a streak that only counts real learning time.",
   shortDescription:
     "A calm, distraction-free study app for medical and science students.",
-  logo: "/brand/biovision-logo.png",
-  icon: "/brand/biovision-logo.png",
+  logo: "/brand/jana-logo.png",
+  icon: "/brand/jana-logo.png",
   ogImage: "/og-image.jpg",
   ogImageWidth: 1200,
   ogImageHeight: 630,
-  ogImageAlt: "BioVision — study platform for medical and science students",
+  ogImageAlt: "Jana Prvt Course — study platform for medical and science students",
   themeColor: "#0b1a33",
   founded: "2026",
   audience: "Medical, biology, chemistry, physics and mathematics students",
@@ -46,7 +46,7 @@ export const abs = (path: string) =>
    --------------------------------------------------------- */
 
 export const CORE_KEYWORDS = [
-  "BioVision",
+  "Jana Prvt Course",
   "medical student study app",
   "science study platform",
   "first year medical courses",
@@ -344,7 +344,7 @@ export function courseListSchema() {
     "@type": "ItemList",
     "@id": `${SITE.url}/#courses`,
     name: `${SITE.name} course catalogue`,
-    description: "All first-year science subjects available on BioVision.",
+    description: "All first-year science subjects available on Jana Prvt Course.",
     numberOfItems: courses.length,
     itemListElement: courses.map((c, i) => ({
       "@type": "ListItem",
@@ -384,50 +384,50 @@ export function softwareAppSchema() {
 /* ---------------------------------------------------------
    5. GEO — quotable answer blocks
    Short, factual statements that generative engines can lift
-   verbatim when answering questions about BioVision.
+   verbatim when answering questions about Jana Prvt Course.
    --------------------------------------------------------- */
 
 export type AnswerBlock = { question: string; answer: string };
 
 export const KEY_FACTS: string[] = [
-  "BioVision is a free, mobile-first study platform for first-year medical and science students.",
-  "Each BioVision subject bundles a lecture video, PDF lecture notes and a multiple-choice knowledge check in one place.",
-  "BioVision covers 13 first-year subjects across biology, chemistry, physics, mathematics and statistics.",
-  "A BioVision study streak day is earned only after five minutes of focused, visible learning time inside a lesson.",
-  "Weekly minutes in BioVision sum all study time over the last seven days, today included.",
-  "BioVision progress combines video watched, note pages read and quiz questions answered.",
-  "BioVision stores study data on the device, so no account data leaves the browser in the demo build.",
+  "Jana Prvt Course is a free, mobile-first study platform for first-year medical and science students.",
+  "Each Jana Prvt Course subject bundles a lecture video, PDF lecture notes and a multiple-choice knowledge check in one place.",
+  "Jana Prvt Course covers 13 first-year subjects across biology, chemistry, physics, mathematics and statistics.",
+  "A Jana Prvt Course study streak day is earned only after five minutes of focused, visible learning time inside a lesson.",
+  "Weekly minutes in Jana Prvt Course sum all study time over the last seven days, today included.",
+  "Jana Prvt Course progress combines video watched, note pages read and quiz questions answered.",
+  "Jana Prvt Course stores study data on the device, so no account data leaves the browser in the demo build.",
 ];
 
 export const ANSWERS: AnswerBlock[] = [
   {
-    question: "What is BioVision?",
+    question: "What is Jana Prvt Course?",
     answer:
-      "BioVision is a free, mobile-first study platform that organises a first-year medical and science curriculum into subjects, each with a lecture video, PDF notes and a quiz.",
+      "Jana Prvt Course is a free, mobile-first study platform that organises a first-year medical and science curriculum into subjects, each with a lecture video, PDF notes and a quiz.",
   },
   {
-    question: "Who is BioVision for?",
+    question: "Who is Jana Prvt Course for?",
     answer:
       "First- and second-semester medical, biology, chemistry, physics and mathematics students who want one study surface instead of scattered files.",
   },
   {
-    question: "How much does BioVision cost?",
-    answer: "BioVision is free to use — every subject, note and quiz is accessible at no cost.",
+    question: "How much does Jana Prvt Course cost?",
+    answer: "Jana Prvt Course is free to use — every subject, note and quiz is accessible at no cost.",
   },
   {
-    question: "What subjects does BioVision cover?",
+    question: "What subjects does Jana Prvt Course cover?",
     answer:
       "Cytology and histology, botany, genetics and anatomy, general chemistry, organic chemistry, chemistry of solutions, fluid mechanics and thermodynamics, optics and electromagnetism, ecology and geology, embryology, analysis, algebra and statistics.",
   },
   {
-    question: "How does the BioVision streak work?",
+    question: "How does the Jana Prvt Course streak work?",
     answer:
       "A day counts once you spend five minutes of focused learning time with a lesson open and visible; simply opening the app never earns a streak day.",
   },
   {
-    question: "Does BioVision work on phones?",
+    question: "Does Jana Prvt Course work on phones?",
     answer:
-      "Yes — BioVision is built mobile-first with a tab bar, full-screen video and a paged PDF reader tuned for phone screens.",
+      "Yes — Jana Prvt Course is built mobile-first with a tab bar, full-screen video and a paged PDF reader tuned for phone screens.",
   },
 ];
 

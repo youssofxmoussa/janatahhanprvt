@@ -6,12 +6,12 @@ import { motion } from "motion/react";
 export const Route = createFileRoute("/_tabs/notifications")({
   head: () => ({
     meta: [
-      { title: "Notifications · BioVision Learn" },
+      { title: "Notifications · Jana Prvt Course" },
       {
         name: "description",
-        content: "Choose which BioVision Learn study reminders and course updates you receive.",
+        content: "Choose which Jana Prvt Course study reminders and course updates you receive.",
       },
-      { property: "og:title", content: "Notifications · BioVision Learn" },
+      { property: "og:title", content: "Notifications · Jana Prvt Course" },
       { property: "og:description", content: "Control your study reminders and course alerts." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/_tabs/notifications")({
   component: Notifications,
 });
 
-const STORAGE_KEY = "biovision_notification_prefs";
+const STORAGE_KEY = "janaprvt_notification_prefs";
 
 const options = [
   { id: "reminders", label: "Study reminders", hint: "A nudge at your daily study time", icon: Bell },
