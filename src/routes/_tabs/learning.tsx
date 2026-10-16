@@ -161,7 +161,7 @@ function Learning() {
         <Link
           to="/subject/$courseId"
           params={{ courseId: upNext.id }}
-          preload="intent"
+          preload="render"
           className="mt-4 inline-flex h-[3.25rem] w-full items-center justify-center rounded-lg bg-primary text-[1.0625rem] font-semibold text-primary-foreground shadow-soft transition-transform active:scale-[0.97]"
         >
           <Play className="mr-2 size-4 fill-current" />
@@ -189,7 +189,7 @@ function Learning() {
                 key={c.id}
                 to="/subject/$courseId"
                 params={{ courseId: c.id }}
-                preload="intent"
+                preload="render"
                 className="flex items-center gap-3 p-4 first:rounded-t-2xl last:rounded-b-2xl transition-colors active:bg-secondary/50"
               >
                 <div className="flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-xl">
