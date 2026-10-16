@@ -20,7 +20,7 @@ import { useActivity } from "@/lib/activity";
 
 import { courses } from "@/lib/courses";
 import { clearDemoSession } from "@/lib/demo-session";
-import avatarJana from "@/assets/avatar-jana.png";
+import avatarJana from "@/assets/avatar-jana.webp";
 
 export const Route = createFileRoute("/_tabs/me")({
   head: () => ({
