@@ -115,7 +115,7 @@ function Me() {
                 alt="Jana's 3D avatar"
                 width={584}
                 height={844}
-                loading="lazy"
+                decoding="async"
                 className="h-[5.75rem] w-auto object-contain object-bottom drop-shadow-[0_6px_12px_rgba(0,0,0,0.25)]"
               />
             </div>
@@ -155,7 +155,7 @@ function Me() {
           <Link
             key={label}
             to={to}
-            preload="intent"
+            preload="render"
             className="flex w-full items-center gap-3 px-4 py-3.5 text-left transition-colors first:rounded-t-2xl last:rounded-b-2xl active:bg-secondary/60"
           >
             <Icon className="size-5 shrink-0 text-muted-foreground" />

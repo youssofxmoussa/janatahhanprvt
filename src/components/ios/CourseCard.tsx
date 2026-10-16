@@ -9,7 +9,7 @@ export function CourseCard({ course, index = 0 }: { course: Course; index?: numb
     <Link
       to="/subject/$courseId"
       params={{ courseId: course.id }}
-      preload="intent"
+      preload="render"
       className="block"
     >
       <motion.article
@@ -21,7 +21,7 @@ export function CourseCard({ course, index = 0 }: { course: Course; index?: numb
       >
       <div className="flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-xl md:size-16">
         {course.image ? (
-          <img src={course.image} alt="" className="size-full object-contain p-1 scale-110" />
+          <img src={course.image} alt="" decoding="async" width={64} height={64} className="size-full object-contain p-1 scale-110" />
         ) : (
           <div className="size-6 bg-muted-foreground/20 rounded-full" />
         )}
