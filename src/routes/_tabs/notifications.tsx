@@ -65,7 +65,7 @@ export function SettingsHeader({ title, subtitle }: { title: string; subtitle: s
     <header className="pt-6">
       <Link
         to="/me"
-        preload="intent"
+        preload="render"
         className="-ml-1 flex items-center gap-0.5 text-[0.9375rem] font-medium text-primary active:opacity-60"
       >
         <ChevronLeft className="size-5" />

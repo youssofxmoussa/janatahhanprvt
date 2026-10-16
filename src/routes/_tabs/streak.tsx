@@ -90,7 +90,7 @@ function StreakPage() {
       <header className="glass-flat sticky top-3 z-40 mt-3 flex items-center gap-2 rounded-2xl px-2 py-2">
         <Link
           to="/me"
-          preload="intent"
+          preload="render"
           aria-label="Back"
           className="grid size-9 shrink-0 place-items-center rounded-full text-primary transition-transform active:scale-90"
         >
@@ -202,7 +202,7 @@ function StreakPage() {
           transition={spring}
           className="pointer-events-auto"
         >
-          <Link to="/me" preload="intent" className="glass-flat flex h-12 w-full items-center justify-center rounded-2xl text-[1.0625rem] font-semibold text-primary">
+          <Link to="/me" preload="render" className="glass-flat flex h-12 w-full items-center justify-center rounded-2xl text-[1.0625rem] font-semibold text-primary">
             Got it
           </Link>
         </motion.div>

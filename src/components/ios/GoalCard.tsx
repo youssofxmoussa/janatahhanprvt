@@ -144,7 +144,7 @@ function GoalCardBody({
         <Link
           to="/subject/$courseId"
           params={{ courseId: continueTo }}
-          preload="intent"
+          preload="render"
           className="mt-4 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-primary text-[1rem] font-semibold text-primary-foreground shadow-soft transition-transform active:scale-[0.97]"
         >
           <Play className="mr-2 size-4 fill-current" />
