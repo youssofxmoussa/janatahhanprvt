@@ -1,5 +1,4 @@
-import { createFileRoute, Outlet, useRouterState } from "@tanstack/react-router";
-import { motion } from "motion/react";
+import { createFileRoute, Outlet } from "@tanstack/react-router";
 import { TabBar } from "@/components/ios/TabBar";
 import { useStudyTimer } from "@/lib/activity";
 import { useEffect } from "react";
@@ -20,7 +19,6 @@ function TabsLayout() {
       img.src = src as string;
     });
   }, []);
-  const pathname = useRouterState({ select: (s) => s.location.pathname });
 
   return (
     <div className="min-h-[100dvh] bg-background flex flex-col">
